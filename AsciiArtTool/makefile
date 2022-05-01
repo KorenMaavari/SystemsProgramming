@@ -1,5 +1,5 @@
 CC = gcc
-OBJS = tool/AsciiArtTool.o RLEList.o main.o
+OBJS = tool/AsciiArtTool.o RLEList.o tool/main.o
 EXEC = AsciiArtTool
 DEBUG_FLAG = # now empty, assign -g for debug
 COMP_FLAG = -std=c99 -I/home/mtm/public/2122b/ex1 -I/tool -Wall -pedantic-errors -Werror -DNDEBUG
